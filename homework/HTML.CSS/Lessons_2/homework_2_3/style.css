@@ -1,0 +1,35 @@
+.container {
+    width: 2000px;
+    height: 700px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightseagreen;
+    padding: 20px;
+    align-items: flex-start;
+    
+}
+.Month {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+}
+.Month:hover {
+    transform: scale(1.08);
+    transition: transform 0.2s;
+}
+h1, p {
+    margin: 10px;
+    padding-left: 10px;
+}
+* {
+    margin: 0;
+}
