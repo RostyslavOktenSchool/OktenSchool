@@ -1,0 +1,54 @@
+
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(60, 137, 138, 1);
+    
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 150px;
+    border-radius: 15px;
+}
+div .title{
+    background-color:rgba(235, 243, 243, 1);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    border-radius: 15px 15px 0 0;
+    
+}
+h1{
+    font-weight: normal;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form_login{
+    margin-bottom: 40px;
+}
+#login, #pasword{
+    width: 400px;
+    height: 30px;
+}
+input[type="submit"]{
+   width: 100px;
+   height: 25px;
+   border-radius: 8px;
+   border: rgba(162, 164, 164, 1) 1px solid;
+   background-color:rgba(235, 243, 243, 1);
+   font-family: sans-serif;
+}
+.form_check{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

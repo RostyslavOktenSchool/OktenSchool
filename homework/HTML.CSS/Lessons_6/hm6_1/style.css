@@ -1,0 +1,25 @@
+.block_1>ul>li:nth-child(even){
+    color: pink;
+}
+.block_2>ul>li:nth-child(odd){
+    font-size: 22px;
+}
+.block_3>ul>li:nth-child(2n+4)::after{
+    content: "!";
+}
+.block_4>ul>li:last-child{
+    color: violet;
+}
+.block_5>ul>li::first-letter{
+    font-size: 33px;
+    color: red;
+}
+.block_6>ul {
+    list-style-type: none;
+}
+.block_6>ul>li::before{
+    width: 15px;
+    width: 15px;
+    content: url(img/EB0I16p7.ico);
+    background-size: cover;
+}
