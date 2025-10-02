@@ -68,12 +68,12 @@ nav>ul{
     padding-bottom: 101px;
     
 }
-.first{
+.left_side{
     padding-top: 85px;
     padding-left: 115px;
     text-align: left;
 }
-.two{
+.right_side{
     padding-top: 67px;
     padding-left: 150px;
 }
@@ -147,7 +147,7 @@ img>.led{
     
 }
 
-.three{
+.climatic_temp{
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -198,7 +198,7 @@ h3{
     line-height: 42px; /* 116.667% */
     width: 1074px;
 }
-.text_2{
+.information{
     width: 100%;
     padding: 50px 165px;
     text-align: center;
