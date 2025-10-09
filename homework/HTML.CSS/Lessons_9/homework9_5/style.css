@@ -1,0 +1,56 @@
+body.grid {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "main main section"
+    "article article article"
+    "footer footer footer";
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 0fr 1fr 0fr;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  grid-area: header;
+  background: lightblue;
+  height: 20px;
+}
+
+main {
+  grid-area: main;
+  background: lightgreen;
+}
+
+section {
+  grid-area: section;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section div:first-child {
+  width: 100%;
+  height: 50%;
+  background: lightcoral;
+}
+
+section div:last-child {
+  width: 100%;
+  height: 50%;
+  background: lightskyblue;
+}
+
+article {
+  grid-area: article;
+  height: 60px;
+  background: lightgoldenrodyellow;
+}
+
+footer {
+  grid-area: footer;
+  background: lightgray;
+  height: 60px;
+}
